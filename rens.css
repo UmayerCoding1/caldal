@@ -1,0 +1,98 @@
+@media (max-width: 450px){
+    .header{
+        width: 100%;
+        height: 30vh;
+    }
+    .navber{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .btn-none{
+        left: 30%;
+    }
+    
+    .len{
+        display: none;
+    }
+
+    .inp-section{
+        margin-left: 0;
+        width: 100%;;
+        padding: 0;
+        text-align: center;
+    }
+
+    .inp-header-ses{
+        width: 80%;
+        padding: 0;
+    }
+    .header .inp-img .inp-section h1{
+        font-size: 1.8rem;
+    }
+
+
+    .header .inp-img .inp-section input{
+        width: 90%;
+        height: 30px;
+    }
+
+    .img-section{
+        display: none;
+    }
+
+    #menu-none{
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu-none .cetaggoris{
+        justify-content: center;
+    }
+
+    .mobile-cetagoris{
+        display: block;
+        cursor: pointer;
+    }
+
+
+    .popular-categories{
+        text-align: center;
+    }
+    .next-peav .view-all{
+    display: flex;
+    margin:10px 150px;
+}
+
+    .next-peav{
+        display: block;
+    }
+
+    .next-peav p{
+        margin: 0 ;
+     }
+
+    .service{
+        margin: 0 0;
+    }
+    .service .box .box1 .i{
+        width: 450px;
+    }
+
+    .categoris-menu{
+        padding: 10px 0;
+    }
+
+    .menu1,.menu2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .box1{
+        margin-left: 0;
+    }
+
+    .shopping-card{
+        left: 85%;
+    }
+}

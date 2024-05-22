@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- &#2547; -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omline Grocery Shopping and Delivery in Bangladesh | By fresh food item</title>
+    <!-- fonst aowsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font link -->
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- mobile css file link -->
+    <link rel="stylesheet" href="rens.css">
+</head>
+<body>
+   <header class="header">
+     <nav class="navber">
+        <div class="logo-menu">
+            <i class="fa-solid fa-bars" id="menu"></i>
+            <a href="index.html"><h1>chaldal.com</h1></a>
+        </div>
+        <div class="inp-header-ses nav">
+            <input type="text" name="" class="inp" id="navber-inp" placeholder="Search for products (e.g eggs, milk, potato)"> 
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="login">
+            <button id="locetion"><i class="fa-solid fa-location-dot"></i>
+                Dhaka<i class="fa-solid fa-caret-down"></i>
+            </button>
+                <div class="len">
+                    <button id="english">EN</button><span>|</span><button id="bangla">বাং</button>
+                </div>
+                <button id="login-btn">Login</button>
+        </div>
+     </nav>
+
+     <div class="inp-img">
+        <div class="inp-section">
+            <h1>Grocery Delivered at your Doorstep</h1>
+            <div class="inp-header-ses">
+                <input type="text" name="" class="inp" id="header-inp" placeholder="Search for products"> 
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="img-section">
+            <img src="image/home/header/imageBanner.webp" id="header-img" alt="">
+        </div>
+     </div>
+
+     <!-- right site display none section -->
+     <div class="btn-none" id="loc-btn">
+        <i class="fa-solid fa-minus" id="minus"></i> <br>
+        <p><span id="set-loc"><i class="fa-solid fa-location-crosshairs"></i></span>Use my current Location</p>
+        <p><span id="set-city"><i class="fa-solid fa-city"></i></span>Change City</p>
+     </div>
+
+
+     <div id="menu-none">
+        <i class="fa-solid fa-xmark" id="xmark"></i>
+        <div class="cetaggoris">
+            <button id="grocery">Grocery</button>|
+            <button id="pharmacy">Pharmacy</button>|
+            <button id="cookups">Cookups</button>
+        </div>
+
+        <div class="offres">
+            <li>Offers <button>33</button></li>
+            <li>Egg Club</li>
+            <li>Deal of the Day<i class="fa-solid fa-tag" id="tag"></i></li>
+            <hr>
+        </div>
+
+        <div class="all-section">
+            <li id="favourites"><img src="image/SVG/favourites.svg" class="svg" alt="">Favourites</li>
+            <li id="summer"><img src="image/SVG/summer-collection.webp" class="svg" alt="">Summer Collection</li>
+            <li id="flash"><img src="image/SVG/flash-sales.webp" class="svg" alt="">Flash Sales</li>
+            <li id="popular"><img src="image/SVG/popular.webp" class="svg" alt="">Popular</li>
+            <li id="food"><img src="image/SVG/food.webp" class="svg" alt="">Food  <i class="fa-solid fa-caret-down"></i></li>
+            <li id="cleaning"><img src="image/SVG/cleaning-supplies.webp" class="svg" alt="">Cleaning Supplies <i class="fa-solid fa-caret-down"></i></li>
+            <li id="personal"><img src="image/SVG/personal-care.webp" class="svg" alt="">Personal Care <i class="fa-solid fa-caret-down"></i></li>
+            <li id="health"><img src="image/SVG/health-wellness.webp" class="svg" alt="">Health & Wellness <i class="fa-solid fa-caret-down"></i></li>
+            <li id="baby-care"><img src="image/SVG/baby-care.webp" class="svg" alt="">Baby Care <i class="fa-solid fa-caret-down"></i></li>
+            <li id="home-kitchen"><img src="image/SVG/home-kitchen.webp" class="svg" alt="">Home & Kitchen <i class="fa-solid fa-caret-down"></i></li>
+            <li id="stationery"><img src="image/SVG/stationery-office.webp" class="svg" alt="">Stationery & Office <i class="fa-solid fa-caret-down"></i></li>
+            <li id="pet-care"><img src="image/SVG/pet-care.webp" class="svg" alt="">Pet Care <i class="fa-solid fa-caret-down"></i></li>
+            <li id="toys-sports"><img src="image/SVG/toys-sports.webp" class="svg" alt="">Toys & Sports</li>
+            <li id="beauty-makeup"><img src="image/SVG/beauty-makeup.webp" class="svg" alt="">Beauty & Makeup</li>
+            <li id="fashion"><img src="image/SVG/fashion-lifestyle.webp" class="svg" alt="">Fashion & Lifestyle</li>
+            <li id="vehicle"><img src="image/SVG/vehicle-essentials.webp" class="svg" alt="">Vehicle Essentials</li>
+            <hr>
+            <li id="premiumCare"><img src="image/SVG/premiumCare.svg" class="svg" alt="">Premium Care</li>
+            <li id="recipes"><img src="image/SVG/recipe.svg" class="svg" alt="">Recipes</li>
+            <hr>
+        </div>
+        
+     </div>
+     <!-- right site display none section -->
+   </header>
+<!-- header -->
+
+<!-- shopping card -->
+<!-- sh = shopping -->
+ <div class="shopping-card">
+    <i class="fa-solid fa-bag-shopping"></i>
+    <p><span>0</span> ITEMS</p>
+    <div class="TK">
+        <P>৳<SPan id="total"> 0</SPan></P>
+    </div>
+ </div>
+
+ <!-- <div class="sh card-main-box">
+    <div class="bag">
+        <div class="item-close">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <p><span>0</span> ITEMS</p>
+            <button id="close">Close</button>
+        </div>
+        <div class="delivery-charge">
+            <p>Shop ৳400 more and save ৳10 fee</p>
+            <p>৳ 49 <i class="fa-solid fa-circle-info"></i></p>
+        </div>
+        <div class="select-item">
+            Your shopping bag is empty. Start
+        </div>
+
+
+    </div>
+ </div> -->
+
+<!-- shopping card -->
+
+
+   <!-- main -->
+   <main class="main">
+    <section class="mobile-cetagoris" style="text-align: center; margin: 0 25%;">
+        <div class="cetaggoris">
+            <button id="grocery">Grocery</button>|
+            <button id="pharmacy">Pharmacy</button>|
+            <button id="cookups">Cookups</button>
+        </div>
+    </section>
+
+
+    <section class="service" id="service">
+        <div class="box">
+            <div class="box1">
+                <div class="i"><i class="fa-solid fa-shop"></i> <span class="red">+15000 products</span> to shop from</div>
+                <div class="i"><i class="fa-solid fa-wallet"></i>Pay <span class="red">after</span> receiving products</div>
+            </div>
+
+            <div class="box1">
+            <div class="i"><i class="fa-solid fa-truck"></i>Get your delivery within <span class="red">1 hour</span></div>
+            <div class="i"><i class="fa-solid fa-comment-dollar"></i>Get offers that <span class="red">Save Money</span></div>
+        </div>
+    </div>
+    </section>
+
+    <section class="popular-categories" id="Popular">
+      <div class="next-peav">
+        <p>Popular Categories</p>
+      <div class="view-all">
+        <p>View All</p>
+        <button id="peav"><i class="fa-solid fa-angle-left"></i></button>
+        <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+        
+
+      </div>
+      </div>
+
+      <div class="categoris-menu">
+        <div id="perents-menu1">
+            <div class="menu1">
+                <div class="box1" id="f-box1">
+                    <img id="img1" src="image/home/categoties/fruitsAndVegs.webp" alt="">
+                    <p>Fruits & Vegetables</p>
+                </div>
+                <div class="box1" id="f-box2">
+                    <img id="img2" src="image/home/categoties/meatAndFish.webp" alt="">
+                    <p>Meat & Fish</p>
+                </div>
+                <div class="box1" id="f-box3">
+                    <img  id="img3" src="image/home/categoties/cooking.webp" alt="">
+                    <p>Cooking</p>
+                </div>
+                <div class="box1" id="f-box4">
+                    <img id="img4" src="image/home/categoties/beverages.webp" alt="">
+                    <p>Beverages</p>
+                </div>
+                <div class="box1" id="f-box5">
+                    <img id="img5" src="image/home/categoties/home-cleaning.webp" alt="">
+                    <p>Home & Cleaning</p>
+                </div>
+            </div>
+        </div>
+        
+       
+
+        <div id="perents-menu2">
+            <div class=" menu2">
+            <div class="box1" id="f-box1">
+                <img id="img1" src="image/home/categoties/baby-care.webp" alt="">
+                <p>Baby Care</p>
+            </div>
+            <div class="box1" id="f-box2">
+                <img id="img2" src="image/home/categoties/healthCare.webp" alt="">
+                <p>Health Products</p>
+            </div>
+            <div class="box1" id="f-box3">
+                <img  id="img3" src="image/home/categoties/kitchen-appliances.webp" alt="">
+                <p>Kitchen Appliance</p>
+            </div>
+            <div class="box1" id="f-box4">
+                <img id="img4" src="image/home/categoties/petFood.webp" alt="">
+                <p>Pet Care</p>
+            </div>
+            <div class="box1" id="f-box5">
+                <img id="img5" src="image/home/categoties/beauty.webp" alt="">
+                <p>Beauty Products</p>
+            </div>
+        </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="popular-compani">
+        <p>Popular on Chaldal</p>
+        <img src="image/home/Popular on Chaldal/pran.webp" alt="">
+        <img src="image/home/Popular on Chaldal/reckitt.webp" alt="">
+        <img src="image/home/Popular on Chaldal/nestle.webp" alt="">
+        <img src="image/home/Popular on Chaldal/uniliver.webp  " alt="">
+        <img src="image/home/Popular on Chaldal/marico.webp" alt="">
+        <img src="image/home/Popular on Chaldal/godrej-seeklogo.webp" alt="">
+        <img src="image/home/Popular on Chaldal/coca-cola.webp" alt="">
+        <img src="image/home/Popular on Chaldal/fresh (1).webp" alt="">
+    </section>
+
+   </main>
+
+   <script src="app.js"></script>
+</body>
+</html>
